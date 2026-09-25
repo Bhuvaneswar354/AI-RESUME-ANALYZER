@@ -1,0 +1,17 @@
+Name: Sriramula Bhuvaneswar Vinay
+
+Education:
+B.Tech AIML, SRKR Engineering College
+CGPA: 8.82
+
+Skills:
+Python, Java, HTML, CSS, JavaScript, React, SQL, Machine Learning, TensorFlow.
+
+Projects:
+AI Interview Platform
+AI-Driven Soil Testing
+Campus Connect Portal
+
+Internships:
+Edunet Foundation
+Blackbucks MERN Internship

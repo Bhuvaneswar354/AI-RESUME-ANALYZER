@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Resume Analyzer | SRKR AIML</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- PDF.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+</head>
+
+<body>
+
+<div class="background"></div>
+
+<div class="container">
+
+  <div class="card">
+
+    <div class="header">
+      <div class="robot">🤖</div>
+
+      <h1>AI Resume Analyzer</h1>
+
+      <p>
+        Analyze Engineering Student Resumes using Google AI Studio (Gemini AI)
+      </p>
+    </div>
+
+    <div class="upload-box">
+
+      <input
+        type="file"
+        id="resumeFile"
+        accept=".pdf,.txt"
+      >
+
+      <button onclick="analyzeResume()">
+        Analyze Resume
+      </button>
+
+    </div>
+
+    <div id="loading"></div>
+
+    <div id="result">
+      Upload a PDF or TXT resume and click **Analyze Resume**.
+    </div>
+
+  </div>
+
+  <footer>
+    Developed by <b>Sriramula Bhuvaneswar Vinay</b> | B.Tech AIML | SRKR Engineering College
+  </footer>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
